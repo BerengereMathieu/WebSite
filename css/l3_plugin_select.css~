@@ -1,0 +1,228 @@
+body{
+    text-align: center;
+    font-family: Corbel, Verdana, Arial, sans-serif;
+    background-color: #333;
+    color: #bbb;
+    font-size: 90%;
+    line-height: 1.2;
+    overflow: -moz-scrollbars-vertical;
+    background-attachment: scroll;
+    background-image: url(bg2.jpg);
+    background-repeat: repeat;
+ }
+
+/*the container for the layers*/
+.layerContainer{
+	position:absolute;
+	border:solid 5px black;
+	border-radius:10px;
+}
+
+/*area to comment an image*/
+#areaForComment{
+	background-color: rgba(0,0,0,0.9);
+}
+
+
+/* use to the look of tools boxs */
+.elegant {
+	text-align: center;
+	font-weight: bold;
+	font-size: small;
+    font-family: Corbel, Verdana, Arial, sans-serif;
+	background-color: rgba(255,255,255,0.2);
+    color: #bbb;
+	border: inset;
+	border-radius: 10px;
+	padding:5px;
+}
+
+/*specific attribute of the tools box containign tools for selection*/
+.selectionToolsBox{
+	position:absolute; /* because the tools box is draggale*/
+	left:10px;
+	top:10px;
+	width:150px;
+	z-index:0;
+}
+
+/*to add icons to buttons of the selection tools box*/
+#moveComponentsButton{
+	background-color:white;
+	background-image:url(pictures/cursor_icon.png);
+	background-position:center;
+	background-size:20px;
+}
+.rectangleButton{
+	background-image:url(pictures/rectangle.png);
+}
+.polygonButton{
+	background-image:url(pictures/polygon.gif);
+}
+.shapeButton{
+	background-image:url(pictures/pen.png);	
+}
+.gridButton{
+	background-image:url(pictures/grid.jpg);	
+}
+
+/*specific attribute of the tools box containign miniatures of layers */
+.layersToolsBox{
+	position:absolute; /* because the tools box is draggale*/
+	left:180px;
+	top:10px;
+	z-index:0;
+	
+}
+
+
+
+/* a button to hide all layers*/
+.hideAllLayersButton{
+	background-image:url(pictures/eye-icon.jpg);
+	background-size:30px;
+	width:30px;
+	height:30px;
+}
+
+/* a button to select all layers to remove them */
+.selectAllLayersToRemoveButton{
+	background-image:none;
+	background-size:30px;
+	width:30px;
+	height:30px;
+	
+}
+
+/*look to the buttons linked of miniatures of layers*/
+.layerButton {
+	margin-left: 5px;
+	width:30px;
+	height:30px;
+}
+
+/*this look is used when the button to remove a specific layers 
+ is selected*/
+.layerButtonBordered {
+	border: solid 1px red;
+}
+
+/* look for buttons to add or remove rows and columns of the grid*/
+.buttonNbRowsColumns {
+	width: 30px;
+	height: 30px;
+	text-align: center;
+	border-radius: 15px;
+	font-weight: bold;
+	font-size: small;
+	background-color: #E6E2AF;
+	border-color: #B4AF91;
+}
+
+/* inputs to show and change number of rows or columns of the grid*/
+.inputNbRowsColumns {
+	width: 40px;
+	height: 20px;
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: white;
+	border-color: #B4AF91;
+	margin: 5px;
+	text-align: center;
+}
+
+/*button to save a selection of some cases of the grid */
+.saveGridButton{
+	font-weight: bold;
+	border-radius: 10px;
+	background-color: #E6E2AF;
+	border-color: #B4AF91;
+	margin: 5px;
+	text-align: center;
+}
+
+/*to write title of tools for change number of rows and columns*/
+.toolBoxSubTitle {
+	margin: 5px;
+	border-top: solid 1px gray;
+	font-size: small;
+}
+
+/*to create a sub menu in the tools box for selection
+ for example the grid selection adds severals buttons and 
+ needs a sub menu
+ */
+.subMenu {
+	border-style: solid;
+	border-color: gray;
+	border-width: 2px;
+	border-radius: 10px;
+	margin:5px;
+}
+
+/*to indicate that the user can sort the layers*/
+.sortableEnable{	
+	color:green;
+}
+
+/*to indivate that the use can not sort the layers*/
+.sortableDisable{
+	color:red;
+}
+
+/*look for a not selected button 
+ * used to rectangle selection button,
+ * polygon selection button,
+ * shape selection button and
+ * grid button
+ */
+.buttonNotSelected {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: small;
+	border: outset 5px #B4AF91;
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	background-size: 60px 60px;
+	background-color: white;
+	background-repeat: no-repeat;
+}
+
+/*look for a selected button 
+ * used to rectangle selection button,
+ * polygon selection button,
+ * shape selection button and
+ * grid button
+ */
+.buttonSelected {
+	color: black;
+	text-align: center;
+	font-weight: bold;
+	font-size: small;
+	border: ridge 5px #B4AF91;
+	width: 70px;
+	height: 70px;
+	margin: 5px;
+	background-size: 60px 60px;
+	background-color: white;
+	background-repeat: no-repeat;
+}
+
+/**
+ * 	Area which contains all layers
+ */
+#selectionArea{
+	background-color: white;
+	border: inset ;
+}
+/*
+ * look for the title of each tools box
+ */
+fieldset {
+
+	border-radius: 10px;
+	margin: 5px;
+}
+

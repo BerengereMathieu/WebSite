@@ -1,0 +1,175 @@
+.well {
+    min-height: 20px;
+    padding: 0px 13px 13px 13px;
+    margin-bottom: 20px;
+    background-color: #F5F5F5;
+    border: 1px solid #68b0ab;
+    border-radius: 4px;
+
+}
+
+.photo_profil{
+ max-width:300px;
+ margin-right:10px;
+ margin-bottom:10px;
+}
+.footer{	
+    background-color: #2d2d30;
+    color: #f1f1f1;
+}
+.footer h3{
+
+    color: #f1f1f1;
+}
+
+.banner{
+    background-image:url("banniere.jpg");
+    height:300px;
+}
+.icon{
+   width:32px;		
+   margin-bottom:5px;
+   margin-right:5px;
+   float:left;
+}
+.banner-im{
+    margin:10px;
+}
+/* Add a dark background color with a little bit see-through */
+.navbar {
+    margin-bottom: 0;
+    background-color: #2d2d30;
+    border: 0;
+    font-size: 11px !important;
+    letter-spacing: 4px;
+    opacity:0.9;
+}
+
+/* Add a gray color to all navbar links */
+.navbar li a, .navbar .navbar-brand {
+    color: #d5d5d5 !important;
+}
+
+/* On hover, the links will turn white */
+.navbar-nav li a:hover {
+    color: #fff !important;
+}
+
+/* The active link */
+.navbar-nav li.active a {
+    color: #fff !important;
+    background-color:#29292c !important;
+}
+
+/* Remove border color from the collapsible button */
+.navbar-default .navbar-toggle {
+    border-color: transparent;
+}
+
+/* Dropdown */
+.open .dropdown-toggle {
+    color: #fff ;
+    background-color: #555 !important;
+}
+
+/* Dropdown links */
+.dropdown-menu li a {
+    color: #000 !important;
+}
+
+/* On hover, the dropdown links will turn red */
+.dropdown-menu li a:hover {
+    background-color: red !important;
+}
+
+body{
+    background-color:#ffffff;
+    color:black;
+
+}
+h1{
+  color:#4a7c59;
+  letter-spacing: 1px;
+}
+h2{
+  color:#4a7c59;
+}
+h3{
+  color:#4a7c59;
+}
+h4{
+  color:#4a7c59;
+}
+h5{
+  color:#4a7c59;
+}
+h6{
+  color:#4a7c59;
+}
+a{
+  color:#4a7c59;
+}
+a:link {
+  text-decoration: none;
+}
+
+a:visited{
+  color:#546674;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#546674;
+  text-decoration: underline;
+}
+
+a:active {
+  text-decoration: underline;
+}
+
+.content{
+    max-width: 1024px;
+    margin:auto;
+    font-size:16px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+
+
+.cv_part_border{
+
+  border-top-style: solid;
+  border-color: #68b0ab;
+  padding: 0px 0px 10px 0px;
+  margin:0px 20px 0px 0px;
+}
+.cv_part{
+  border-radius: 10px 10px 10px 10px ;
+  padding:10px;
+  margin: 0px 0px 0px 20px;
+  text-align: justify;
+}
+.cv_subtitle{
+  background-color:#4a7c59;
+  border-radius: 10px 10px 0px 0px ;
+  color:white;
+  font-weight: bold;
+  margin: 25px 10px 0px 10px;
+  padding:10px;
+}
+.cv_description{
+    border-color: #4a7c59;
+    border-style:solid;
+    text-align:justify;
+    margin:0px 10px 25px 10px;
+    padding:15px;
+}
+
+.cv_list_1{
+    margin:0px 0px 10px 10px;
+}
+
+.cv_list_2{
+    margin:0px 0px 10px 20px;
+}.cv_list_3{
+    margin:0px 0px 10px 30px;
+}

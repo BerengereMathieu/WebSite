@@ -1,0 +1,74 @@
+body{
+    text-align: center;
+    font-family: Corbel, Verdana, Arial, sans-serif;
+    background-color: #ffffff;
+    color: #000000;
+    font-size: 90%;
+    line-height: 1.2;
+    overflow: -moz-scrollbars-vertical;
+    background-attachment: scroll;
+    background-image: url(bg2.jpg);
+    background-repeat: repeat;
+ }
+
+/*a look for all tools boxs*/
+.elegant {
+	text-align: center;
+	font-weight: bold;
+	font-size: small;
+    font-family: Corbel, Verdana, Arial, sans-serif;
+	background-color: rgba(20,20,20,0.8);
+    color: #bbb;
+	border: inset;
+	border-radius: 10px;
+	padding:5px;
+}
+
+img, canvas
+{
+  border-width:10px;
+  border-style:solid;
+  border-radius: 10px;
+}
+
+/*a look for title of tools box*/
+fieldset
+{
+  border-radius: 10px;
+  margin:5px;
+}
+
+/*tools box with sliders to change opacity of images*/
+#toolsBoxToChangeTransparency{
+	width:160px;
+	z-index:1000;
+/*put tools box in place*/
+	position:absolute;
+	left:10px;
+	top:10px;
+	
+}
+
+/*tools box to show all images and restort the initial sizes of images*/
+#toolsBocToShowImages{
+	width:160px;
+	z-index:1000;
+/*put tools box in place*/
+	position:absolute;
+	left:10px;
+	top:100px;
+	
+	
+}
+
+/*button to stack up all images*/
+#stackUpButton{
+	margin:5px;
+}
+
+/*button to show all images*/
+#organiseButton{
+	margin:5px;	
+}
+
+
