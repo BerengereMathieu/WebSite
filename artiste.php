@@ -74,10 +74,53 @@
     </div>   
   </div>
 
+<div class="container-fluid footer">
+    <h3 class="text-center">Contact</h3>
+    <div class="content row">
+        <div class="col-xs-4">
+            <p><b>Lieu de résidence :</b> Toulouse, France</p>
+            <p><b>Email :</b> berengere.ma@gmail.com</p>
+        </div>
+        <div class="col-xs-1"> </div>
+        <div class="col-xs-3">
+            <p>
+            <a id="twitter_icon" href="https://twitter.com/Ber3ngereM" target="_blank">
+                <img src="./css/twitter_icon.png" class="icon"></img>
+            </a>
+            <a id="google_icon" href="https://plus.google.com/105061247223162269946" target="_blank">
+                <img src="./css/google_icon.png" class="icon"></img>
+            </a>
+            <a id="linkedin_icon" href="https://www.linkedin.com/in/b%C3%A9reng%C3%A8re-mathieu-491563b2" target="_blank">
+                <img src="./css/linkedin_icon.png" class="icon"></img>
+            </a>
+            <a id="framasphere_icon" href="https://framasphere.org/u/berengere" target="_blank">
+                <img src="./css/framasphere_icon.png" class="icon"></img>
+            </a>
+            </p>
+        </div>
+        <div class="col-xs-1"> 
+        <p>
 
-
-<?php include('footerLevel1.html'); ?>
+            <a id="platypus_icon" href="portfolio/platypus.php" >
+                <img class="center-block" src="./css/platypus_icon.png" class="icon"></img>
+            </a>
+        </p>
+        </div>
+    </div>
+</div>
   </div>
+  <script type="text/javascript">
+    window.onload=function(){
+    if(supportsSvg){
+        var img_platypus=$('<img src="../css/platypus_icon.svg" class="icon">');
+        img_platypus.load(function(){
+                         $("#platypus_icon").children().remove();
+                         $("#platypus_icon").append(img_platypus);
+                         });
+        
+    }
+  }
+  </script>
 </body>
 
 </html>
