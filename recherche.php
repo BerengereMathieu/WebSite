@@ -65,9 +65,11 @@
                     La segmentation interactive contourne cette difficulté en demandant à l'utilisateur de fournir quelques informations (points de contours, échantillons de pixels pour chaque région, etc.). Ces indications permettent de déterminer les caractéristiques des différentes régions ainsi que leur nombre.
                     </p>
                     
-                    <h3>Publication :</h3>
+                    <h3>Publications :</h3>
                     <ul>
-                        <li><a href="https://arxiv.org/abs/1510.03199"> Interactive multiclass segmentation using superpixel classification</a></li>
+                        <li><a href="http://rfia2016.iut-auvergne.com/media/articles/AV02.pdf" target="_blank"><em>Segmentation interactive pour l’annotation de photographies de paysages</em>, RFIA 2016</a></li>
+                        <li><a href="portfolio/presentationSCIS.pdf" target="_blank">Présentation RFIA 2016</a></li>
+
                     </ul>
                     <a href="portfolio/SCIS.php">
                         <h3>Démonstration : </h3>

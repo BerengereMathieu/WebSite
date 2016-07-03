@@ -54,10 +54,13 @@
 	<footer> <cite><a target="_blank" href="http://fr.wikipedia.org/wiki/Teratologie">Teratologie</a></cite> de <a target="_blank" href="http://fr.wikipedia.org/">Wikipédia en français</a> (<a target="_blank" href="http://fr.wikipedia.org/w/index.php?title=Teratologie&action=history">auteurs</a>)</footer>
       </blockquote>
       <p>
-Discipline au croisement de l'analyse d'image et de l'intelligence artificielle, la vision par ordinateur consiste à produire des programmes  capable d'analyser et de comprendre une ou plusieurs images numériques. Les algorithmes développés sont avant tout motivée par une recherche de performance, qu'il s'agisse d'augmenter les tâches réalisable par une machine ou d'améliorer les traitement existant.
+Discipline au croisement de l'analyse d'image et de l'intelligence artificielle, la vision par ordinateur consiste à produire des programmes  capable d'analyser et de comprendre une ou plusieurs images numériques. Les algorithmes développés sont avant tout motivée par une recherche de performance, qu'il s'agisse de diversifier les tâches réalisables par une machine ou d'améliorer les traitements existants.
       </p>
     <p>
-<em>Tératologie</em> consiste en une série d'images produites par le détournement et la combinaison de méthodes de vision et leur application dans un but purement esthétique. Les algorithmes qui les engendrent se révèlent parfaitement vains, incapable de produire la moindre information utile. Des monstres donc, dépourvus de toute efficience. 
+<em>Tératologie</em> consiste en une série d'images produites par le détournement et la combinaison de méthodes de vision et leur application dans un but purement esthétique. Les algorithmes qui les engendrent se révèlent parfaitement vains, incapable de produire la moindre information utile.
+    </p>
+    <p>
+     Des monstres donc, dépourvus de toute efficience.
     </p>
 	
       <div id="teratologie_canvas" style=></div>
