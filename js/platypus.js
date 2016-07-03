@@ -13,7 +13,7 @@ function preload(){
   topLeftScreen=createVector(50,70);
   screenIm=loadImage("../js/dataPlatypus/screen.png");
 
-  quotes=loadJSON("../js/dataPlatypus/text1.json");
+  quotes=loadJSON("../js/dataPlatypus/text.json");
 }
 
 var wait;
