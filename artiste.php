@@ -107,6 +107,8 @@
         </p>
         </div>
     </div>
+    
+    <p class="text-right"><a  href="LICENSE.txt">licence</a></p>
 </div>
   </div>
   <script type="text/javascript">
