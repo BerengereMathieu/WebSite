@@ -5,8 +5,12 @@ External ressources :
 * https://commons.wikimedia.org/wiki/File:FlowerHmong_Vietnam_%28pixinn.net%29.jpg
 * https://commons.wikimedia.org/wiki/File:Platypus_by_Lewin.jpg
 
+The remaining content of this web site is on:
+
                     GNU GENERAL PUBLIC LICENSE
                        Version 2, June 1991
+                       
+                       
 
  Copyright (C) 1989, 1991 Free Software Foundation, Inc., <http://fsf.org/>
  51 Franklin Street, Fifth Floor, Boston, MA 02110-1301 USA
