@@ -34,10 +34,10 @@
             <div class="container-fluid">
                 <div >
                     <ul class="nav navbar-nav">
-                        <li ><a href=./cours.php>Enseignante</a></li>
-                        <li ><a href=./developpeuse.php>Développeuse</a></li>
-                        <li ><a href=./artiste.php>Artiste</a></li>
-                        <li  class="active"><a href=./recherche.php>Chercheuse</a></li>
+                        <li ><a href=./cours.php>Enseignement</a></li>
+                        <li ><a href=./developpeuse.php>Logiciels</a></li>
+                        <li ><a href=./artiste.php>Création</a></li>
+                        <li  class="active"><a href=./recherche.php>Recherche</a></li>
                     </ul>
                     
                     <ul class="nav navbar-nav navbar-right">
@@ -73,7 +73,7 @@
                     </ul>
                     <a href="portfolio/SCIS.php">
                         <h3>Démonstration : </h3>
-                        <img src="portfolio/images/scisTeaser.gif"></img>
+                        <img class="img-responsive" src="portfolio/images/scisTeaser.gif">
                     </a>
                     </a>
                 </div>

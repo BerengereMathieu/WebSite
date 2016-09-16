@@ -32,12 +32,12 @@
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
-        <div >        
+        <div >    
           <ul class="nav navbar-nav">
-            <li ><a href=./cours.php>Enseignante</a></li>
-            <li class="active"><a href=./developpeuse.php>Développeuse</a></li>
-            <li ><a href=./artiste.php>Artiste</a></li>
-            <li ><a href=./recherche.php>Chercheuse</a></li>
+              <li ><a href=./cours.php>Enseignement</a></li>
+              <li class="active"><a href=./developpeuse.php>Logiciels</a></li>
+              <li ><a href=./artiste.php>Création</a></li>
+              <li ><a href=./recherche.php>Recherche</a></li>
           </ul>
           
           <ul class="nav navbar-nav navbar-right">
@@ -48,50 +48,44 @@
         
       </div>
     </nav>
+    
     <div class="banner"></div>
     
-  <div class="class=container-fluid content">
-
-    <h1 class="text-center">Développement de logiciels</h1>
-    <br></br>
-    
-       
-    <div class="cv_part_border">
-      <div class="cv_part">
-	  <a href="portfolio/ColorSpacesVisualization.php">
-	    <h2 class="hidden_link_title"> Exploration des espaces colorimétriques : VASCO</h2>
-	    
-	    <img src="portfolio/images/xyz.jpg"></img>
-	  </a>
-      </div>
-    </div>
-    
-    
-    <div class="cv_part_border">
-      <div class="cv_part">
-	  <a href="portfolio/SCIS.php">
-	    <h2 class="hidden_link_title"> Filtre Gimp pour l'extraction d'éléments dans une image : SCIS</h2>	    
-	    <img src="portfolio/images/scisTeaser.gif"></img>
-	  </a>
-      </div>
-    </div>   
-    
-    
-    <div class="cv_part_border">
-      <div class="cv_part">
-	  <a href="portfolio/stageL3.php">
-	    <h2 class="hidden_link_title">Outils web pour la comparaison et l'anotation d'images</h2>	    
-	    <img src="portfolio/images/stageL3Teaser.jpg"></img>
-	  </a>
-      </div>
-    </div>
-
-  </div>
+    <div class="class=container-fluid content">
   
-
-
-    <?php include('footerLevel1.html'); ?>
-  </div>
+      <h1 class="text-center">Développement de logiciels</h1>
+      <br></br>
+      
+      <div class="cv_part_border">
+        <div class="cv_part">
+          <a href="portfolio/ColorSpacesVisualization.php">
+            <h2 class="hidden_link_title"> Exploration des espaces colorimétriques : VASCO</h2>
+            <img class="img-responsive" src="portfolio/images/xyz.jpg">
+          </a>
+        </div>
+      </div><!-- end VASCO -->
+      <div class="cv_part_border">
+        <div class="cv_part">
+          <a href="portfolio/SCIS.php">
+            <h2 class="hidden_link_title"> Filtre Gimp pour l'extraction d'éléments dans une image : SCIS</h2>	    
+            <img class="img-responsive" src="portfolio/images/scisTeaser.gif">
+          </a>
+        </div>
+      </div><!-- end SCIS -->
+      <div class="cv_part_border">
+        <div class="cv_part">
+          <a href="portfolio/stageL3.php">
+            <h2 class="hidden_link_title">Outils web pour la comparaison et l'anotation d'images</h2>	    
+            <img class="img-responsive" src="portfolio/images/stageL3Teaser.jpg">
+          </a>
+        </div>
+      </div><!-- end stage L3 -->   
+      
+    </div> <!-- end content -->
+    
+    <div>
+      <?php include('footerLevel1.html'); ?>
+    </div>
  
 </body>
 

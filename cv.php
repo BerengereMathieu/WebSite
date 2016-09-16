@@ -32,11 +32,11 @@
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
         <div >
-        <ul class="nav navbar-nav">
-            <li ><a href=./cours.php>Enseignante</a></li>
-            <li ><a href=./developpeuse.php>Développeuse</a></li>
-            <li ><a href=./artiste.php>Artiste</a></li>
-            <li ><a href=./recherche.php>Chercheuse</a></li>
+         <ul class="nav navbar-nav">
+              <li ><a href=./cours.php>Enseignement</a></li>
+              <li ><a href=./developpeuse.php>Logiciels</a></li>
+              <li ><a href=./artiste.php>Création</a></li>
+              <li ><a href=./recherche.php>Recherche</a></li>
           </ul>
           
           <ul class="nav navbar-nav navbar-right">

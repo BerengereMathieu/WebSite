@@ -32,13 +32,14 @@
 <body>
     <nav class="navbar navbar-default navbar-fixed-top">
       <div class="container-fluid">
-        <div >        
-          <ul class="nav navbar-nav">
-            <li ><a href=./cours.php>Enseignante</a></li>
-            <li ><a href=./developpeuse.php>Développeuse</a></li>
-            <li class="active"><a href=./artiste.php>Artiste</a></li>
-            <li ><a href=./recherche.php>Chercheuse</a></li>
+        <div >
+           <ul class="nav navbar-nav">
+              <li ><a href=./cours.php>Enseignement</a></li>
+              <li ><a href=./developpeuse.php>Logiciels</a></li>
+              <li  class="active"><a href=./artiste.php>Création</a></li>
+              <li ><a href=./recherche.php>Recherche</a></li>
           </ul>
+          
           
           <ul class="nav navbar-nav navbar-right">
             <li ><a href=./index.php>Accueil</a></li>
@@ -50,66 +51,67 @@
     </nav>
     <div class="banner"></div>
     
-  <div class="class=container-fluid content">
-
-    <h1 class="text-center">Travail artistique</h1>
-    <br></br>
+    <div class="class=container-fluid content">
     
-     <div class="cv_part_border">
-      <div class="cv_part">
-	  <a href="portfolio/teratologie.php">
-	    <h2 class="hidden_link_title">Tératologie</h2>	    
-	    <img src="portfolio/images/teratologie/teratologie_teaser.jpg"></img>
-	  </a>
-      </div>
-    </div>   
-    
-    <div class="cv_part_border">
-      <div class="cv_part">
-	  <a href="portfolio/prixCC.php">
-	    <h2 class="hidden_link_title"> Prix d'écriture Claude Nougaro</h2>	    
-	    <img src="portfolio/images/pecc_teaser.jpg"></img>
-	  </a>
-      </div>
-    </div>   
-  </div>
-
-<div class="container-fluid footer">
-    <h3 class="text-center">Contact</h3>
-    <div class="content row">
-        <div class="col-xs-4">
-            <p><b>Lieu de résidence :</b> Toulouse, France</p>
-            <p><b>Email :</b> berengere.ma@gmail.com</p>
+      <h1 class="text-center">Travail artistique</h1>
+      <br></br>
+      
+      <div class="cv_part_border">
+        <div class="cv_part">
+          <a href="portfolio/teratologie.php">
+            <h2 class="hidden_link_title">Tératologie</h2>	    
+            <img class="img-responsive" src="portfolio/images/teratologie/teratologie_teaser.jpg">
+          </a>
         </div>
-        <div class="col-xs-1"> </div>
-        <div class="col-xs-3">
+      </div>   
+      
+      <div class="cv_part_border">
+        <div class="cv_part">
+          <a href="portfolio/prixCC.php">
+            <h2 class="hidden_link_title"> Prix d'écriture Claude Nougaro</h2>	    
+            <img class="img-responsive" src="portfolio/images/pecc_teaser.jpg">
+          </a>
+        </div>
+      </div>   
+      
+    </div>  <!-- end of contents -->
+    
+    <div class="container-fluid footer">
+      <h3 class="text-center">Contact</h3>
+      <div class="content row">
+          <div class="col-xs-4">
+              <p><b>Lieu de résidence :</b> Toulouse, France</p>
+              <p><b>Email :</b> berengere.ma@gmail.com</p>
+          </div>
+          
+          <div class="col-xs-1"> </div>
+          
+          <div class="col-xs-3">
+              <p>
+              <a id="twitter_icon" href="https://twitter.com/Ber3ngereM" target="_blank">
+                  <img src="./css/twitter_icon.png" class="icon"></img>
+              </a>
+              <a id="google_icon" href="https://plus.google.com/105061247223162269946" target="_blank">
+                  <img src="./css/google_icon.png" class="icon"></img>
+              </a>
+              <a id="linkedin_icon" href="https://www.linkedin.com/in/b%C3%A9reng%C3%A8re-mathieu-491563b2" target="_blank">
+                  <img src="./css/linkedin_icon.png" class="icon"></img>
+              </a>
+              <a id="framasphere_icon" href="https://framasphere.org/u/berengere" target="_blank">
+                  <img src="./css/framasphere_icon.png" class="icon"></img>
+              </a>
+              </p>
+          </div>
+          
+          <div class="col-xs-1"> 
             <p>
-            <a id="twitter_icon" href="https://twitter.com/Ber3ngereM" target="_blank">
-                <img src="./css/twitter_icon.png" class="icon"></img>
-            </a>
-            <a id="google_icon" href="https://plus.google.com/105061247223162269946" target="_blank">
-                <img src="./css/google_icon.png" class="icon"></img>
-            </a>
-            <a id="linkedin_icon" href="https://www.linkedin.com/in/b%C3%A9reng%C3%A8re-mathieu-491563b2" target="_blank">
-                <img src="./css/linkedin_icon.png" class="icon"></img>
-            </a>
-            <a id="framasphere_icon" href="https://framasphere.org/u/berengere" target="_blank">
-                <img src="./css/framasphere_icon.png" class="icon"></img>
-            </a>
+                <a id="platypus_icon" href="portfolio/platypus.php" >
+                    <img class="center-block" src="./css/platypus_icon.png" class="icon"></img>
+                </a>
             </p>
-        </div>
-        <div class="col-xs-1"> 
-        <p>
-
-            <a id="platypus_icon" href="portfolio/platypus.php" >
-                <img class="center-block" src="./css/platypus_icon.png" class="icon"></img>
-            </a>
-        </p>
-        </div>
-    </div>
-    
-    <p class="text-right"><a  href="LICENSE.txt">licence</a></p>
-</div>
+          </div>
+      </div>
+      <p class="text-right"><a  href="LICENSE.txt">licence</a></p>
   </div>
   <script type="text/javascript">
     window.onload=function(){
