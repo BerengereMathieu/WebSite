@@ -34,9 +34,9 @@
       <div class="container-fluid">
         <div >
            <ul class="nav navbar-nav">
-              <li ><a href=./cours.php>Enseignement</a></li>
-              <li ><a href=./developpeuse.php>Logiciels</a></li>
-              <li  class="active"><a href=./artiste.php>Création</a></li>
+              <li ><a href=./enseignement.php>Enseignement</a></li>
+              <li ><a href=./logiciels.php>Logiciels</a></li>
+              <li  class="active"><a href=./creation.php>Création</a></li>
               <li ><a href=./recherche.php>Recherche</a></li>
           </ul>
           
@@ -58,9 +58,9 @@
       
       <div class="cv_part_border">
         <div class="cv_part">
-          <a href="portfolio/teratologie.php">
-            <h2 class="hidden_link_title">Tératologie</h2>	    
-            <img class="img-responsive" src="portfolio/images/teratologie/teratologie_teaser.jpg">
+          <a href="portfolio/photographs.php">
+            <h2 class="hidden_link_title">Photographies</h2>	    
+            <img class="img-responsive" src="portfolio/images/photos_teaser.jpg">
           </a>
         </div>
       </div>   

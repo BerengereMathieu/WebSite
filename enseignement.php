@@ -34,9 +34,9 @@
     <div class="container-fluid">
       <div >
         <ul class="nav navbar-nav">
-          <li class="active"><a href=./cours.php>Enseignement</a></li>
-          <li ><a href=./developpeuse.php>Logiciels</a></li>
-          <li ><a href=./artiste.php>Création</a></li>
+          <li class="active"><a href=./enseignement.php>Enseignement</a></li>
+          <li ><a href=./logiciels.php>Logiciels</a></li>
+          <li ><a href=./creation.php>Création</a></li>
           <li ><a href=./recherche.php>Recherche</a></li>
         </ul>
       
