@@ -1,198 +1,87 @@
-.well {
-    min-height: 20px;
-    padding: 0px 13px 13px 13px;
-    margin-bottom: 20px;
-    background-color: #F5F5F5;
-    border: 1px solid #68b0ab;
-    border-radius: 4px;
-
-}
-
-.photo_profil{
- max-width:300px;
- margin-right:10px;
- margin-bottom:10px;
-}
-.footer{	
-    background-color: #2d2d30;
-    color: #f1f1f1;
-}
-.footer h3{
-
-    color: #f1f1f1;
-}
-
-.banner{
-    background-image:url("banniere.jpg");
-    height:300px;
-}
-.icon{
-   width:50px;		
-   margin-bottom:5px;
-   margin-right:5px;
-   float:left;
-}
-.banner-im{
-    margin:10px;
-}
-/* Add a dark background color with a little bit see-through */
-.navbar {
-    margin-bottom: 0;
-    background-color: #2d2d30;
-    border: 0;
-    font-size: 11px !important;
-    letter-spacing: 4px;
-    opacity:0.9;
-}
-
-/* Add a gray color to all navbar links */
-.navbar li a, .navbar .navbar-brand {
-    color: #d5d5d5 !important;
-}
-
-/* On hover, the links will turn white */
-.navbar-nav li a:hover {
-    color: #fff !important;
-}
-
-/* The active link */
-.navbar-nav li.active a {
-    color: #fff !important;
-    background-color:#29292c !important;
-}
-
-/* Remove border color from the collapsible button */
-.navbar-default .navbar-toggle {
-    border-color: transparent;
-}
-
-/* Dropdown */
-.open .dropdown-toggle {
-    color: #fff ;
-    background-color: #555 !important;
-}
-
-/* Dropdown links */
-.dropdown-menu li a {
-    color: #000 !important;
-}
-
-/* On hover, the dropdown links will turn red */
-.dropdown-menu li a:hover {
-    background-color: red !important;
-}
-
 body{
-    background-color:#ffffff;
-    color:black;
-
-}
-h1{
-  color:#4a7c59;
-  letter-spacing: 1px;
-}
-h2{
-  color:#4a7c59;
-}
-h3{
-  color:#4a7c59;
-}
-h4{
-  color:#4a7c59;
-}
-h5{
-  color:#4a7c59;
-}
-h6{
-  color:#4a7c59;
-}
-a{
-  color:#4a7c59;
-}
-a:link {
-  text-decoration: none;
-}
-
-a:visited{
-  color:#546674;
-  text-decoration: none;
-}
-
-a:hover {
-  color:#546674;
-  text-decoration: underline;
-}
-
-a:active {
-  text-decoration: underline;
-}
-
-.content{
-    max-width: 1024px;
-    margin:auto;
-    font-size:16px;
-    font-family: Georgia, "Times New Roman", Times, serif;
-}
-
-
-.cv_part_border{
-
-  border-top-style: solid;
-  border-color: #68b0ab;
-  padding: 0px 0px 10px 0px;
-  margin:0px 20px 0px 0px;
-}
-.cv_part{
-  border-radius: 10px 10px 10px 10px ;
-  padding:10px;
-  margin: 0px 0px 0px 20px;
-  text-align: justify;
-}
-.cv_subtitle{
-  background-color:#4a7c59;
-  border-radius: 10px 10px 0px 0px ;
+  background-color:black;
   color:white;
-  font-weight: bold;
-  margin: 25px 10px 0px 10px;
-  padding:10px;
-}
-.cv_description{
-    border-color: #4a7c59;
-    border-style:solid;
-    text-align:justify;
-    margin:0px 10px 25px 10px;
-    padding:15px;
+  background-image:url('../assets/banner.jpg');
+  background-repeat: no-repeat;
+  background-attachment:fixed;
+  background-size:cover;
+  margin:0px;
+  padding:0px;
+  font-family:'Oswald', sans-serif;
+  letter-spacing: .15em;
 }
 
-.cv_list_1{
-    margin:0px 0px 10px 10px;
+
+#links_container{
+  border-style: none none none none;
+  border-width:1px;
+  padding-top:5px;
 }
 
-.cv_list_2{
-    margin:0px 0px 10px 20px;
+#contact_container{
+  border-style: solid none none none;
+  border-width:1px;
+  padding-top:5px;
 }
 
-.cv_list_3{
-    margin:0px 0px 10px 30px;
+#presentation{
+  margin-top:20px;
+  min-height:200px;
+  padding:0px 50px 0px 50px;
 }
 
-.my_caption{
-  background-color:rgba(4,4,4,0.7);
-  color:white;
+#Git_link{
+ 
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in;
+	   -moz-transition: opacity 1s ease-in;
+		-ms-transition: opacity 1s ease-in;
+		 -o-transition: opacity 1s ease-in;
+			transition: opacity 1s ease-in;
+ }
+ 
+ #CV_link{
+ 
+	opacity: 0;
+	-webkit-transition: opacity 1.5s ease-in;
+	   -moz-transition: opacity 1.5s ease-in;
+		-ms-transition: opacity 1.5s ease-in;
+		 -o-transition: opacity 1.5s ease-in;
+			transition: opacity 1.5s ease-in;
+ }
+#Art_link{
+ 
+	opacity: 0;
+	-webkit-transition: opacity 2s ease-in;
+	   -moz-transition: opacity 2s ease-in;
+		-ms-transition: opacity 2s ease-in;
+		 -o-transition: opacity 2s ease-in;
+			transition: opacity 2s ease-in;
+ }
+.contact{
+  vertical-align: middle;
+  padding: 0px 5px 0px 0px;
+}
+
+p{
+  text-align:justify;
+}
+
+.icon{
+  max-width:40px;
+}
+
+.article{
+  background-color:rgba(255,255,255,0.8);
+  color:#0A1B2A;  
+  height: 100%;
   max-width:500px;
-  margin:auto;
-  padding:5px;
-  border-radius:10px;
+  margin: 50px auto 50px auto ;
+  padding:20px;
 }
 
-.carousel-control.left{
-  background-image:none;
-  color:black;
+h3{
+  text-align:center;
+  padding: 0px 0px 10px 0px;
 }
-.carousel-control.right{
-  background-image:none;
-  color:black;
-}
-.hidden_link_title > a, .cours_link > .visited > a{
-  color:#4a7c59;
-}
+
