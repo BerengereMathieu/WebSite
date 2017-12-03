@@ -3,7 +3,7 @@ from django.db.models import CharField
 from django.db.models import TextField
 from django.db.models import ImageField
 from django.db.models import ManyToManyField
-
+from website.cv.models.tag import Tag
 
 
 class Item(Model):
