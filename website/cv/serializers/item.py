@@ -1,7 +1,7 @@
 from rest_framework.serializers import Serializer
 from rest_framework.serializers import CharField
 from rest_framework.serializers import ImageField
-from website.cv.serializers.tag import TagSerializer
+from .tag import TagSerializer
 
 
 class ItemSerializer(Serializer):
