@@ -2,9 +2,9 @@ from django.db.models import Model
 from django.db.models import CharField
 
 
-class Category(Model):
+class Tag(Model):
     """
-    Category for CV items
+    Tags for CV items
     """
     name = CharField(max_length=240, default="")
 
