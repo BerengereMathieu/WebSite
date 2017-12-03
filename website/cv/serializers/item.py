@@ -1,18 +1,7 @@
 from rest_framework.serializers import Serializer
-from rest_framework.serializers import ModelSerializer
-from website.cv.models.tag import Tag
 from rest_framework.serializers import CharField
 from rest_framework.serializers import ImageField
-
-
-class TagSerializer(ModelSerializer):
-    """
-    Tag serialier
-    """
-
-    class Meta:
-        model = Tag
-        fields = ('name',)
+from website.cv.serializers.tag import TagSerializer
 
 
 class ItemSerializer(Serializer):
